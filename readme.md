@@ -34,6 +34,6 @@ Every object in this app should be a class. For instance:
 - Income
 - Currency
 
-And class related logic should be put as methods inside the respective class
+And class related logic should be put as methods inside the respective class.
 
-Listeners and UI updating methods can sit outside of the classes
+Listeners and UI updating methods can sit outside of the classes.
