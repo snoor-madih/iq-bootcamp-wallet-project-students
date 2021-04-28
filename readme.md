@@ -38,8 +38,11 @@ And class related logic should be put as methods inside the respective class.
 
 Listeners and UI updating methods can sit outside of the classes.
 
+___
+
 Please list the team member names below:
 - Team member 1
 - Team member 2
 
+<br>
 Happy Coding! ❤
