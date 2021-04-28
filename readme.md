@@ -3,7 +3,7 @@
 This project will help you practice most of the knowledge you've learned so far in JavaScript.
 
 
-You are required to create this using OOP and use only Vanilla JS (HTML, CSS, JS).
+You are required to create this using OOP and only use Vanilla JS (HTML, CSS, JS).
 
 ## Functionality
 - The app should be able to manage multiple wallets.
