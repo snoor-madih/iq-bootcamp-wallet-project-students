@@ -3,15 +3,17 @@
 This project will help you practice most of the knowledge you've learned so far in JavaScript.
 
 
-You are required to create this using OOP and a css framework (eg. Bootstrap) and use only Vanilla JS
+You are required to create this using OOP and use only Vanilla JS (HTML, CSS, JS).
 
 ## Functionality
-- The app should be able to manage multiple wallets
-- A wallet has a name, starting balance, a list of Transactions, and description
-- The wallets should be saved and loaded from a storage (with thier data)
-- There should be 2 types of transactions (Income and Expense)
-- A transaction should have a date, tags, and a note
-- A user can jump between the wallets and create wallets
+- The app should be able to manage multiple wallets.
+- A wallet has a name, starting balance, a list of Transactions, and description.
+- There should be 2 types of transactions (Income and Expense).
+- A transaction should have a date, tags, and a note.
+- A user can jump between the wallets and create wallets.
+
+### Bonus
+- The wallets should be saved and loaded from local storage (with thier data).
 
 ## Mockups
 Wallet View
