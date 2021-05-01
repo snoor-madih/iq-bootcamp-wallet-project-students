@@ -1,0 +1,55 @@
+/* styling popup form DIV contener :)*/
+#popup-form
+{
+    display: none;
+    position: fixed;
+    top: 0;
+    padding:30px;
+    margin: 100px 450px 100px 300px;
+    
+    right: 15px;
+    border: 2px solid #f1f1f1;
+    border-radius: 5px;
+    background-color: white;
+    max-width: 500px;
+}
+
+/* styling the popup form buttons :)*/
+#close
+{
+   background-color: slategrey;
+   color: snow;
+   border: slategrey;
+   padding: 5px; 
+   border-radius: 3px;
+   margin-left: 170px;
+}
+#create
+{
+    background-color: mediumturquoise;
+    color: snow; 
+    border:mediumturquoise; 
+    padding: 5px;
+    border-radius: 3px;
+    margin-left: auto;
+}
+#x{ background-color: white;
+    border: white;
+    color: slategrey;
+    margin-left: 300px;
+}
+/* styliny the popup form lables :)*/
+#popup-form  label
+{
+    opacity:80%;
+}
+
+/* styling the popup form inputs :) */
+.container #name,#discription,#balance
+{
+    width: 220px;
+    height: 20px;
+    opacity:80%;
+}
+
+hr{ background-color:slategrey;}

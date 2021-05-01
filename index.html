@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+    <!-- the start up form :) -->
+    <div id="no-wallet"><h1>WalletApp</h1>
+        <img src="./ghost-png.png" alt="gost" width="200" height="200">
+       <label id="label1">Ooops!</label>
+        <br>
+        <label id="label2">You have no wallet, start by creating one</label>
+        <br>
+        <button id="button1" type="button">create wallet</button>
+    </div>
+
+<!-- creat new wallat form :) -->
+    <div id="create-wallet-form"> 
+        <h1 id="wallet-balance">Wallet balance</h1>
+    
+        <!-- the button that hold the wallet owner name :) -->
+
+        <div id="drop" class="dropdown">
+            <button id="wallat-name" type="button" class="dropdown-toggle" data-toggle="dropdown">
+              Dropdown button
+            </button>
+            <ul id="dropdown-menu" class="dropdown-menu">
+            </ul>
+          </div>
+<!-- ------------------------------------------------------------------------ -->
+
+        <label id="label3" >Make transaction:</label>
+
+        <input id="input1" type="text"> 
+        <label id="label4" >$</label>
+        <label id="label5"> 0 </label>
+
+        <button id="button2" type="button">Income</button>
+        <button  id="buuton3" type="button">Expense</button>
+
+
+        <label id="label6" for="input2">Transaction Notes:</label>
+        <input id="input2" type="text" placeholder="Lunch"> 
+        <label id="label7" for="input3">Transaction tags:</label>
+        <input id="input3" type="text" placeholder="Food, Lifestyle"> 
+        <button  id="buuton4" type="button">Add transaction</button>
+    </div>
+
+    <!-- the DIV that  saved and loaded from local storage (with thier data) :) -->
+    <div id="last">
+        <ul id="money">
+
+        </ul>
+    </div>
+
+
+<!-- ============================================================================================================ -->
+    <!-- popup form :) -->
+ <div id="popup-form">
+     <button type="button" id="x"><strong>X</strong></button>
+     <form class="container">
+        <h3>Create new wallet</h3>
+        <hr>
+
+
+    <table>
+        <tr>
+            <td> <label id="nameL" for="name">Name</label></td>
+            <td><input id="name" type="text" required placeholder="Enter your name"> </td>
+        </tr>
+
+        <tr> 
+            <td><label for="US" for="IQR">Currency</label></td>
+            <td><input type="radio" id="US" name="money" value="US">
+                <label for="US">US Dollars ($)</label>
+            <br>
+            <input type="radio" id="IQD" name="money" value="IQD">
+            <label for="IQD">Iraqi Denar (IQD)</label></td>
+        </tr>
+
+
+        <tr>
+            <td><label id="balancel" for="balance">balance</label></td>
+            <td><input id="balance" type="text" value="0"></td>
+        </tr>
+
+        <tr>
+            <td><label id="discriptionl" for="discription">Discription</label></td>
+            <td><input id="discription" type="text"></td>
+        </tr>
+
+    </table>
+
+    <div id="button-div">
+        <hr>
+        <button  id="close" type="button">Close</button>
+        <button  id="create" type="button">Create wallet</button>
+    </div>
+
+</form>
+</div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
